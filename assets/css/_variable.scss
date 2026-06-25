@@ -1,0 +1,51 @@
+// ==========================================
+// 🟧 LES ORANGES (Thème Principal / Chaleur)
+// ==========================================
+
+$orange-fond-beige:   #fff7ed; // (orange-50) Le beige/crème de fond général (dont Contact)
+$orange-fond-clair:   #ffedd5; // (orange-100) Lueurs et fonds très clairs
+$orange-bordure:      #fed7aa; // (orange-200) Bordures légères et inputs
+$orange-degrade:      #fb923c; // (orange-400) Pour les dégradés clairs
+$orange-bouton:       #f97316; // (orange-500) Boutons et icônes principales
+$orange-actif:        #ea580c; // (orange-600) Textes actifs, survol (hover), titres forts
+$orange-survol:       #c2410c; // (orange-700) Survol des liens
+$orange-texte-fonce:  #7c2d12; // (orange-900) Texte sombre principal (marron très foncé)
+// ==========================================
+// 🟥 LES ROUGES (Accents & Énergie)
+// ==========================================
+$rouge-fond-clair:    #fef2f2; // (red-50) Fond alternatif très clair
+$rouge-halo:          #fee2e2; // (red-100) Halos lumineux en arrière-plan
+$rouge-dynamique:     #ef4444; // (red-500) Dégradés dynamiques et boutons
+$rouge-titre:         #dc2626; // (red-600) Titres, survol des boutons, footer
+
+// ==========================================
+// 🟨 LES JAUNES (Lumière & Soleil)
+// ==========================================
+$jaune-nuance:        #fefce8; // (yellow-50) Nuance de lumière dans le fond
+$jaune-halo:          #facc15; // (yellow-400) Halos lumineux, dégradés d'icônes
+$jaune-degrade:       #eab308; // (yellow-500) Dégradés d'icônes
+
+// ==========================================
+// ⚪/⚫ LES NEUTRES (Structure & Textes)
+// ==========================================
+$blanc-pur:           #ffffff; // (white) Fond des cartes et de la navbar
+$noir-pur:            #000000; // (black) Ombres et dégradés sombres
+$gris-bordure:        #e5e7eb; // (gray-200) Bordures discrètes générales
+$gris-texte-corps:    #4b5563; // (gray-600) Textes secondaires, paragraphes
+$gris-texte-menu:     #374151; // (gray-700) Textes du menu de navigation, labels
+$gris-sous-titre:     #1f2937; // (gray-800) Sous-titres et textes renforcés
+
+// ==========================================
+// 🎛️ STRUCTURE DE BASE (theme.css) & ALERTE
+// ==========================================
+$bleu-nuit-strong:    #030213; // Couleur forte par défaut du thème
+$rouge-erreur:        #d4183d; // Pour les messages d'erreur ou actions critiques
+
+// ==========================================
+// 📱 RÉSEAUX SOCIAUX
+// ==========================================
+$social-instagram:    #db2777; // Rose Instagram
+$social-facebook:     #2563eb; // Bleu Facebook
+$social-whatsapp:     #22c55e; // Vert WhatsApp
+
+$gradient: linear-gradient(to right, $orange-actif, $rouge-titre );

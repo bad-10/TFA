@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" type="text/css" href="build/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+   
+    <title>Food Ath'itude - Le Festival de Food Trucks à Ath</title>
+
+    
+    <meta name="description" content="Découvrez Food Ath'itude, le festival incontournable de food trucks à Ath du 19 au 21 juin 2026. Retrouvez nos trucks, concerts et animations !">
+
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <meta property="og:title" content="Food Ath'itude - Le Festival de Food Trucks à Ath">
+    <meta property="og:description" content="Découvrez Food Ath'itude, le festival incontournable de food trucks à Ath du 19 au 21 juin 2026.">
+    <meta property="og:url" content="https://food-athitude.be/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="favicon.ico">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="build/images/logo1.svg" alt="Logo du festival">
+                <div class="logo-text">
+                    <h2>Food Ath'itude</h2>
+                    <span>Festival 2026</span>  
+                </div>
+            </div>
+            <div class="burger-menu" id="burgerToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul>
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#lineup">Line-up</a></li>
+                <li><a href="#infos">Infos Pratiques</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="home" class="slide">
+        <div class="wrapper">
+            <img src="build/images/logo1.svg" alt="logo">
+            <div class="date-container">
+                <i class="fa-solid fa-calendar-days" style="color: #f97316;"></i>
+                <span>15 - 17 Août 2026</span>
+            </div>
+            <div class="title-container">
+                <h1>Le plus grand festival street-food de l'été</h1>
+            </div>
+            <div class="info-container">
+                <div class="info-acceuil">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                    <div class="info-acceuil-text">
+                        <span class="info-text">LIEU</span>
+                        <span class="info-desc">Parc Municipal, Ath</span>
+                    </div>
+                </div>
+                <div class="info-acceuil">
+                   <i class="fa-solid fa-utensils" style="color: #ffffff;"></i>
+                    <div class="info-acceuil-text">
+                        <span class="info-text">AU MENU</span>
+                        <span class="info-desc">25 Food Trucks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experience">
+        <div class="wrapper">
+            <div class="experience__header">
+                <h2 class="experience__titre">Une Expérience Unique</h2>
+                <p class="experience__sous-titre">
+                    3 jours de fête, de saveurs inédites et de musique live dans un cadre exceptionnel. Le rendez-vous incontournable des épicuriens !
+                </p>
+            </div>
+            <div class="experience__grid">
+                <div class="cards" id="carte1">
+                    <div class="experience__card-content">
+                        <span class="experience__card-label">Gastronomie nomade</span>
+                    </div>
+                </div>
+                
+                <div class="cards" id="carte2">
+                    <div class="experience__card-content">
+                        <span class="experience__card-label">Ambiance festive</span>
+                    </div>
+                </div>
+                
+                <div class="cards" id="carte3">
+                    <div class="experience__card-content">
+                        <span class="experience__card-label">Concerts Live</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div id="lineup" class="lineup-container">
+        <div class="wrapper">
+            <div class="lineup-header">
+                <h1>Line-up 2026</h1>
+                <p>Découvrez tous nos food trucks et les concerts qui feront vibrer le parc</p>
+            </div>
+            <div class="village-gourmand">
+                <h2>Le Village Gourmand</h2>
+                <p class="subtitle">Explorez nos 3 zones thématiques et découvrez une multitude de saveurs !</p>
+                <div class="zones-grid">
+                    <div class="zone-card">
+                        <div class="zone-header">
+                            <h3><i class="fa-solid fa-location-dot"></i> Zone A</h3>
+                            <span class="badge">9 stands</span>
+                        </div>
+                        <ul class="stands-list">
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Le Burger Artisan</h4>
+                                    <p>Burgers gastronomiques</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Pizza al Forno</h4>
+                                    <p>Pizza napolitaine</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Le Barbecue King</h4>
+                                    <p>Grillades & BBQ</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Pasta Nostra</h4>
+                                    <p>Pâtes fraîches</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Bao Bun Boss</h4>
+                                    <p>Baos taïwanais</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Kebab Master</h4>
+                                    <p>Kebabs & Falafels</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>La Rôtisserie Nomade</h4>
+                                    <p>Poulet rôti</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Poutine Palace</h4>
+                                    <p>Poutine québécoise</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Smoothie Station</h4>
+                                    <p>Boissons fraîches</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="zone-card">
+                        <div class="zone-header">
+                            <h3><i class="fa-solid fa-location-dot"></i> Zone B</h3>
+                            <span class="badge">9 stands</span>
+                        </div>
+                        <ul class="stands-list">
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Taco Fiesta</h4>
+                                    <p>Tacos mexicains</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Sweet Délice</h4>
+                                    <p>Desserts & Glaces</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Fish & Chips Co.</h4>
+                                    <p>Poissons frits</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Sushi Street</h4>
+                                    <p>Sushis & Makis</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>El Empanada</h4>
+                                    <p>Spécialités argentines</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Green Bowl</h4>
+                                    <p>Healthy bowls</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Bagel Brothers</h4>
+                                    <p>Bagels new-yorkais</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Hot Dog Hero</h4>
+                                    <p>Hot-dogs premium</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Raclette Roulante</h4>
+                                    <p>Fromage fondu</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="zone-card">
+                        <div class="zone-header">
+                            <h3><i class="fa-solid fa-location-dot"></i> Zone C</h3>
+                            <span class="badge">7 stands</span>
+                        </div>
+                        <ul class="stands-list">
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Wok & Roll</h4>
+                                    <p>Cuisine asiatique</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Veggie Paradise</h4>
+                                    <p>Cuisine végétarienne</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Crepe Corner</h4>
+                                    <p>Crêpes bretonnes</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Frites Révolution</h4>
+                                    <p>Frites belges</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Dim Sum Delight</h4>
+                                    <p>Bouchées vapeurs</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Churros Factory</h4>
+                                    <p>Churros</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="stand-icon">
+                                    <i class="fa-solid fa-utensils" style="color: #f97316;"></i>
+                                </div>
+                                <div class="stand-info">
+                                    <h4>Curry Express</h4>
+                                    <p>Cuisine indienne</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="programmation-musicale">
+                <h2>Programmation Musicale <i class="fa-solid fa-music" style="color: #ea580c;"></i></h2>
+                <p class="subtitle">Des concerts live toute la journée</p>
+                <div class="concerts-grid">
+                    <div class="concert-card">
+                        <span class="concert-date">Vendredi 15 Août</span>
+                        <p class="concert-time"><i class="fa-solid fa-clock" style="color: #4b5563;"></i> 18h-20h</p>
+                        <h3>Les Troubadours du Rock</h3>
+                        <p class="concert-genre">Rock alternatif</p>
+                    </div>
+                    <div class="concert-card">
+                        <span class="concert-date">Vendredi 15 Août</span>
+                        <p class="concert-time"><i class="fa-solid fa-clock" style="color: #4b5563;"></i> 21h-23h</p>
+                        <h3>DJ Sunset</h3>
+                        <p class="concert-genre">Electro house</p>
+                    </div>
+                    <div class="concert-card">
+                        <span class="concert-date">Samedi 16 Août</span>
+                        <p class="concert-time"><i class="fa-solid fa-clock" style="color: #4b5563;"></i> 17h-19h</p>
+                        <h3>Acoustic Vibes</h3>
+                        <p class="concert-genre">Folk acoustique</p>
+                    </div>
+                    <div class="concert-card">
+                        <span class="concert-date">Samedi 16 Août</span>
+                        <p class="concert-time"><i class="fa-solid fa-clock" style="color: #4b5563;"></i> 20h-22h30</p>
+                        <h3>The Groove Machine</h3>
+                        <p class="concert-genre">Funk & Soul</p>
+                    </div>
+                    <div class="concert-card">
+                        <span class="concert-date">Dimanche 17 Août</span>
+                        <p class="concert-time"><i class="fa-solid fa-clock" style="color: #4b5563;"></i> 15h-17h</p>
+                        <h3>Jazz Avenue</h3>
+                        <p class="concert-genre">Jazz moderne</p>
+                    </div>
+                    <div class="concert-card">
+                        <span class="concert-date">Dimanche 17 Août</span>
+                        <p class="concert-time"><i class="fa-solid fa-clock" style="color: #4b5563;"></i> 18h-21h</p>
+                        <h3>Grand Final Party</h3>
+                        <p class="concert-genre">Mix DJ set</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="infos" class="infos-container">
+        <div class="wrapper">
+            <div class="infos-header">
+                <h1>Infos Pratiques</h1>
+                <p>Tout ce qu'il faut savoir avant de venir</p>
+            </div>
+            <div class="main-infos-grid">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                    <h3>Dates</h3>
+                    <p>15, 16 et 17 Août 2026</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Horaires</h3>
+                    <p>Ven-Sam: 10h-23h | Dim: 10h-21h</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3>Lieu</h3>
+                    <p>Parc Municipal d'Ath, Grand Place, 7800 Ath, Belgique</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-euro-sign"></i></div>
+                    <h3>Tarifs</h3>
+                    <p>Entrée gratuite ! Vous ne payez que ce que vous mangez</p>
+                </div>
+            </div>
+            <div class="services-section">
+                <h2>Services sur place</h2>
+                <p class="subtitle">Tout est prévu pour votre confort</p>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fa-solid fa-car service-icon"></i>
+                        <div class="service-content">
+                            <h4>Parking gratuit</h4>
+                            <p>500 places à 5 min à pied</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-wheelchair service-icon"></i>
+                        <div class="service-content">
+                            <h4>Accessible PMR</h4>
+                            <p>Site entièrement accessible</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-dog service-icon"></i>
+                        <div class="service-content">
+                            <h4>Animaux acceptés</h4>
+                            <p>Tenus en laisse obligatoire</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-wine-glass service-icon"></i>
+                        <div class="service-content">
+                            <h4>Bar à vin & bières</h4>
+                            <p>Sélection locale et artisanale</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-music service-icon"></i>
+                        <div class="service-content">
+                            <h4>Concerts live</h4>
+                            <p>Programmation tout le week-end</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <i class="fa-solid fa-circle-info service-icon"></i>
+                        <div class="service-content">
+                            <h4>Point info</h4>
+                            <p>Accueil et renseignements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="plan-section">
+                <h2>Plan du site</h2>
+                <p class="subtitle">Retrouvez facilement vos food trucks préférés</p>
+                <div class="plan-map-container">
+                    <div class="plan-zones-row">
+                        <div class="plan-zone-block zone-a-block">
+                            <h5>ZONE A</h5>
+                            <p>Burgers</p>
+                            <p>Pizzas</p>
+                            <p>BBQ</p>
+                        </div>
+                        <div class="plan-zone-block zone-b-block">
+                            <h5>ZONE B</h5>
+                            <p>Tacos</p>
+                            <p>Desserts</p>
+                            <p>Fish & Chips</p>
+                        </div>
+                        <div class="plan-zone-block zone-c-block">
+                            <h5>ZONE C</h5>
+                            <p>Asiatique</p>
+                            <p>Végétarien</p>
+                            <p>Spécialités</p>
+                        </div>
+                    </div>
+                    <div class="plan-scene-block">
+                        <i class="fa-solid fa-music"></i>
+                        <h5>SCÈNE PRINCIPALE</h5>
+                        <p>Concerts & Animations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="transport-section">
+            <div class="wrapper">
+                <div class="transport-container">
+                    <h2>Comment venir ?</h2>
+                    <div class="transport-grid">
+                        <div class="transport-card">
+                            <div class="transport-icon">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                            <h3>En voiture</h3>
+                            <p>E429 sortie 30, puis direction centre-ville</p>
+                        </div>
+                        <div class="transport-card">
+                            <div class="transport-icon">
+                                <i class="fa-solid fa-train"></i>
+                            </div>
+                            <h3>En train</h3>
+                            <p>Gare d'Ath, puis 10 min à pied</p>
+                        </div>
+                        <div class="transport-card">
+                            <div class="transport-icon">
+                                <i class="fa-solid fa-bus"></i>
+                            </div>
+                            <h3>En bus</h3>
+                            <p>Lignes TEC 1, 5 et 8 arrêt Grand Place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact-section">
+        <div class="wrapper">
+            <div class="contact-header">
+                <h1>Contact</h1>
+                <p>Une question ? N'hésitez pas à nous écrire</p>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form">
+                    <h2>Envoyez-nous un message</h2>
+                    
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" placeholder="Votre nom">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="votre@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" placeholder="Votre message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <i class="fa-solid fa-paper-plane"></i> Envoyez le message
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <h2>Coordonnées</h2>
+                    <div class="info-cards">
+                        <div class="info-icon icon-email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p class="email-link">contact@foodattitude.be</p>
+                        </div>
+                    </div>
+
+                    <div class="info-cards">
+                        <div class="info-icon icon-phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Téléphone</h3>
+                            <p class="phone-link">+32 (0)68 12 34 56</p>
+                        </div>
+                    </div>
+                    <div class="info-cards">
+                        <div class="info-icon icon-address">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Adresse</h3>
+                            <p>Parc Municipal d'Ath<br>Grand Place<br>7800 Ath, Belgique</p>
+                        </div>
+                    </div>
+                    <div class="socials-container">
+                        <h2>Suivez-nous</h2>
+                        <div class="socials-links">
+                            <a href="" class="social-circle text-instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="" class="social-circle text-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="" class="social-circle text-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="cta-foodtruck">
+                        <h3>Vous êtes un food truck ?</h3>
+                        <p>Rejoignez l'aventure Food Ath'itude 2026 ! Contactez-nous pour connaître les modalités de participation.</p>
+                        <a href="" class="btn-cta-white">Contact exposants</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="wrapper">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Food Ath'itude</h3>
+                    <p>Le festival gourmand qui réunit les meilleurs food trucks de la région.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#lineup">Line-up</a></li>
+                        <li><a href="#infos">Infos Pratiques</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Suivez-nous</h3>
+                    <ul>
+                        <li>Instagram: @foodattitude</li>
+                        <li>Facebook: Food Ath'itude Festival</li>
+                        <li>Email: contact@foodattitude.be</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Food Ath'itude. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
