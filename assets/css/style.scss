@@ -192,6 +192,15 @@ nav .wrapper {
 // SECTION HOME
 // SECTION HOME
 // SECTION HOME
+@keyframes A {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 #home {
     position: relative;
@@ -220,7 +229,8 @@ nav .wrapper {
         object-fit: contain;
         height: auto;
         transition: all 0.3s ease;
-
+        opacity: 0;
+        animation: A 0.5s ease-in forwards;
         @media (max-height: 750px) {
             max-width: 240px;
             max-height: 20vh;
@@ -245,6 +255,8 @@ nav .wrapper {
         text-transform: uppercase;
         letter-spacing: 0.5px;
         flex-shrink: 0;
+        opacity: 0;
+        animation: A 0.5s ease-in 0.4s forwards;
 
         @media (max-height: 750px) {
             margin: 8px auto;
@@ -257,6 +269,8 @@ nav .wrapper {
         text-align: center;
         margin-bottom: 20px;
         flex-shrink: 0;
+        opacity: 0;
+        animation: A 0.5s ease-in 0.6s forwards;
 
         @media (max-height: 750px) {
             margin-bottom: 10px;
@@ -282,7 +296,8 @@ nav .wrapper {
         width: 100%;
         margin-top: 10px;
         flex-shrink: 0;
-
+        opacity: 0;
+        animation: A 0.5s ease-in 0.8s forwards;
         .info-acceuil {
             display: flex;
             align-items: center;
